@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="17.16823"
-   height="15.054209"
+   width="99.668228"
+   height="87.395523"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="5.1859052"
-     inkscape:cy="-6.7404559"
+     inkscape:zoom="4"
+     inkscape:cx="4.9359053"
+     inkscape:cy="41.009512"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,7 +55,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-6.6919295,-1028.1531)">
+     transform="translate(-6.9419294,-948.56176)">
     <path
        sodipodi:type="star"
        style="fill:#fbfd00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -71,20 +71,20 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 15.1875,11.168569 -25.418187,-0.0748 12.7738744,-21.975394 z"
-       transform="matrix(0.626161,-4.0229021e-4,4.0229021e-4,0.626161,13.719685,1035.5939)"
-       inkscape:transform-center-x="0.010569438"
-       inkscape:transform-center-y="-2.2880925" />
+       transform="matrix(3.6351074,-0.00233545,0.00233545,3.6351074,47.740775,991.75869)"
+       inkscape:transform-center-x="0.061359581"
+       inkscape:transform-center-y="-13.28326" />
     <text
        xml:space="preserve"
-       style="font-size:14.5897131px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="12.786989"
-       y="1041.376"
+       style="font-size:84.69894409px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="42.326115"
+       y="1025.3259"
        id="text3757"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3759"
-         x="12.786989"
-         y="1041.376"
+         x="42.326115"
+         y="1025.3259"
          style="fill:#000000;fill-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">!</tspan></text>
   </g>
 </svg>

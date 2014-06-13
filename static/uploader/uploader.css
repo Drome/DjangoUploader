@@ -12,14 +12,26 @@
 }
 
 .errorlist {
-  background-color: #F44;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.error {
   display: inline-block;
-  padding-right: 15px;
-  padding-bottom: 3px;
-  padding-top: 5px;
+  background-color: #F44;
+  padding: 3px 25px 3px 5px;
   border: 1px solid;
   border-radius: 3px;
-  margin-bottom: 0px;
+  font-family: sans;
+  font-size: 10pt;
+  white-space: nowrap;
+}
+
+.errorIcon {
+  float: left;
+  height: 14px;
+  margin-right:3px;
 }
 
 body {

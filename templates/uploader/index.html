@@ -1,12 +1,6 @@
 {% extends "uploader/base.html" %}
 {% load staticfiles %}
 
-{% block styles %}
-  .errorlist {
-    list-style-image: url({% static "uploader/warning.svg" %});
-  }
-{% endblock %}
-
 {% block content %}
   <div id="pagetitle_wrapper"><h1 id="pagetitle">Upload</h1></div>
   <div id="inner_content">
@@ -14,12 +8,12 @@
     <form enctype="multipart/form-data" action="{{ request.path }}" method="post">
       {% csrf_token %}
       <div class="fieldWrapper">
-	{{ form.token.errors }}
+	<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.token.errors }}</div></br>
 	<label for="id_token">Token:</label>
 	{{ form.token }}
       </div>
       <div class="fieldWrapper">
-	{{ form.uploadFile.errors }}
+	<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.uploadFile.errors }}</div></br>
 	<label for="id_uploadFile">File:</label>
 	{{ form.uploadFile }}
       </div>
