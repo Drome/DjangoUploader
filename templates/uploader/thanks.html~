@@ -1,0 +1,3 @@
+{% extends "uploader/base.html" %}
+  <div id="thanks">Thanks for uploading!</div>
+</body>
