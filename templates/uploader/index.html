@@ -4,7 +4,7 @@
 {% block content %}
   <div id="pagetitle_wrapper"><h1 id="pagetitle">Upload</h1></div>
   <div id="inner_content">
-    {% if error %}<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ errorText }}</div>{% endif %}
+    {% if error %}<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}"><ul class="errorlist"><li>{{ errorText }}</li></ul></div>{% endif %}
     <form enctype="multipart/form-data" action="{{ request.path }}" method="post">
       {% csrf_token %}
       <div class="fieldWrapper">
