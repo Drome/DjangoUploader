@@ -4,16 +4,16 @@
 {% block content %}
   <div id="pagetitle_wrapper"><h1 id="pagetitle">Upload</h1></div>
   <div id="inner_content">
-    {% if error %} <ul class="errorlist"><li> {{ errorText }} </li></ul> {% endif %}
+    {% if error %}<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ errorText }}</div>{% endif %}
     <form enctype="multipart/form-data" action="{{ request.path }}" method="post">
       {% csrf_token %}
       <div class="fieldWrapper">
-	<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.token.errors }}</div></br>
+	{% if form.token.errors %}<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.token.errors }}</div></br>{% endif %}
 	<label for="id_token">Token:</label>
 	{{ form.token }}
       </div>
       <div class="fieldWrapper">
-	<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.uploadFile.errors }}</div></br>
+	{% if form.uploadFile.errors %}<div class="error"><img class="errorIcon" src="{% static "uploader/warning.svg" %}">{{ form.uploadFile.errors }}</div></br>{% endif %}
 	<label for="id_uploadFile">File:</label>
 	{{ form.uploadFile }}
       </div>
